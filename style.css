@@ -19,10 +19,12 @@ body {
     justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
-
 }
 
 .movie-card {
+    height: 290px;
+    margin-bottom: 10px;
+    border: 1px dashed white;
 }
 
 .movie-card img {
