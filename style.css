@@ -30,3 +30,9 @@ body {
 .movie-card img {
     height: 230px;
 }
+
+.icons-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
