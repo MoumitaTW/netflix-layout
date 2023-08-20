@@ -16,6 +16,14 @@ function handleMouseLeave(event) {
     iconSection.classList.remove('glow')
 }
 
+function toggleColor(color) {
+    return color == "white" ? "crimson" : "white"
+}
+
+function like(event) {
+    let color = event.target.getAttribute('fill')
+    event.target.setAttribute('fill', toggleColor(color))
+ }
 
 function main() {
     let movies = document.getElementsByClassName('movie-card');
