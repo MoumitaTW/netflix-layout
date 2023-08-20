@@ -24,7 +24,7 @@ body {
 .movie-card {
     height: 290px;
     margin-bottom: 10px;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 
 .movie-card img {
@@ -35,4 +35,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
+}
+
+.hidden {
+    visibility: hidden;
 }
