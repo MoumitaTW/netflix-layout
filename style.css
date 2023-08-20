@@ -29,6 +29,7 @@ body {
 
 .movie-card img {
     height: 230px;
+    pointer-events: none;
 }
 
 .icons-section {
@@ -39,4 +40,8 @@ body {
 
 .hidden {
     visibility: hidden;
+}
+
+.glow {
+    box-shadow: 2px 2px 20px 20px black;
 }
