@@ -8,3 +8,23 @@ body {
     text-align: center;
     margin: 20px;
 }
+
+.main-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.movie-row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.movie-card {
+}
+
+.movie-card img {
+    height: 230px;
+}
